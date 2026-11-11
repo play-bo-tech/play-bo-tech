@@ -99,3 +99,20 @@ play-noticias/
 ---
 
 *README creado para ordenar la presencia de Play Noticias en GitHub: qué es, qué cubre y cómo colaborar.*
+
+
+---
+
+## Almacenamiento de fotografías editoriales
+
+Este repositorio también aloja fotografías públicas de Play Noticias.
+
+- `news/YYYY/MM/`: fotografías editoriales optimizadas en WebP.
+- Cada archivo utiliza un identificador UUID y no se sobrescribe.
+- Solo se deben subir fotografías autorizadas para difusión pública.
+- No subir documentos, datos personales, material privado ni archivos originales innecesarios.
+- Tamaño máximo por imagen: 4 MB.
+- Las cargas del panel se realizan desde Cloudflare Pages Functions mediante un token fine-grained limitado a este repositorio.
+- No guardar tokens, claves ni secretos aquí.
+
+Las imágenes son contenido editorial de Play Noticias. Los derechos y créditos de cada imagen deben verificarse antes de su publicación. GitHub Raw es una solución temporal, no un CDN ni almacenamiento de medios dedicado.
